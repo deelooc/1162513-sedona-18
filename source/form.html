@@ -3,14 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <header class="page-header">
-      <a class="page-header__logo" href="#">
-        <img class="page-header__logo-image" src="https://via.placeholder.com/102x83" width="102" height="83" alt="Логотип">
-      </a>
       <nav class="main-nav">
-        <button class="main-nav__toggle" type="button">Открыть меню</button>
         <div class="main-nav__wrapper">
           <ul class="main-nav__list site-list">
             <li class="site-list__item site-list__item--active">
@@ -28,10 +25,19 @@
           </ul>
         </div>
       </nav>
+      <div class="page-header__logo-buttom-wrapper container">
+        <a class="page-header__logo" href="#">
+          <img class="page-header__logo-image" src="../source/img/logo-sedona-mobile.svg" width="102" height="83" alt="Логотип">
+        </a>
+        <button class="main-nav__toggle" type="button">Открыть меню</button>
+      </div>
     </header>
-    <main class="form-page-main">
+    <main class="form-page-main container">
       <h1 class="visually-hidden">Форма отзова</h1>
-      <img class="form-page-main__image" src="https://via.placeholder.com/230x40" width="230" height="40" alt="Надпись названия города Седона">
+      <div class="form-page-main__wrapper container">
+        <img class="form-page-main__image" src="../source/img/bg-back-mobile@1x.jpg" width="321" height="389" alt="Фон Седона">
+        <img src="form-page-main__image-back" src="../source/img/sedona.svg" width="229" height="39" alt="Надпись названия города Седона">
+      </div>
       <h2 class="form-page-main__title">Оставьте свой отзыв</h2>
       <p class="form-page-main__description">Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
       <form class="form-page-main__form form">
@@ -70,7 +76,7 @@
           <ul class="form__impression impression">
             <li class="impression__item">
               <input
-                class="visually-hidden"
+                class=""
                 type="radio"
                 name="impression"
                 id="impression-positive"
@@ -79,7 +85,7 @@
             </li>
             <li class="impression__item">
               <input
-                class="visually-hidden"
+                class=""
                 type="radio"
                 name="impression"
                 id="impression-negative"
@@ -88,7 +94,7 @@
             </li>
             <li class="impression__item">
               <input
-                class="visually-hidden"
+                class=""
                 type="radio"
                 name="impression"
                 id="impression-whatever"
@@ -102,7 +108,7 @@
           <ul class="form__sights sights">
             <li class="sights__item">
               <input
-                class="visually-hidden"
+                class=""
                 type="checkbox"
                 name="sights"
                 id="devil-bridge"
@@ -111,7 +117,7 @@
             </li>
             <li class="sights__item">
               <input
-                class="visually-hidden"
+                class=""
                 type="checkbox"
                 name="sights"
                 id="bell-mountaine"
@@ -120,7 +126,7 @@
             </li>
             <li class="sights__item">
               <input
-                class="visually-hidden"
+                class=""
                 type="checkbox"
                 name="sights"
                 id="slide-park"
@@ -129,7 +135,7 @@
             </li>
             <li class="sights__item">
               <input
-                class="visually-hidden"
+                class=""
                 type="checkbox"
                 name="sights"
                 id="red-rocks"/>
@@ -142,15 +148,16 @@
           <textarea class="form__textarea">Опишите подробно все свои восторги </textarea>
         </fieldset>
       </form>
+      <button class="form-page-main_button container" type="button"><span class="form-page-main_button-text">ОТПРАВИТЬ ОТЗЫВ</span></button>
     </main>
-    <footer class="footer">
-      <h2 class="footer_title">#visitSEDONA</h2>
+    <footer class="footer container">
+      <h2 class="footer__title">#VISITSEDONA</h2>
       <ul class="footer__social-list social">
         <li class="social__item"><a class="social__link" href="#">VK</a></li>
         <li class="social__item"><a class="social__link" href="#">Facebook</a></li>
         <li class="social__item"><a class="social__link" href="#">Youtube</a></li>
       </ul>
-      <div>
+      <div class="social__academy">
         <h3 class="visually-hidden">Разработанно</h3>
         <a href="https://htmlacademy.ru/intensive/adaptive">Академия</a>
       </div>

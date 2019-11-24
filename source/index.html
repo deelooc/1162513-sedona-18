@@ -3,14 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <header class="page-header">
-      <a class="page-header__logo" href="#">
-        <img class="page-header__logo-image" src="https://via.placeholder.com/102x83" width="102" height="83" alt="Логотип">
-      </a>
       <nav class="main-nav">
-        <button class="main-nav__toggle" type="button">Открыть меню</button>
         <div class="main-nav__wrapper">
           <ul class="main-nav__list site-list">
             <li class="site-list__item site-list__item--active">
@@ -28,67 +25,77 @@
           </ul>
         </div>
       </nav>
+      <div class="page-header__logo-buttom-wrapper container">
+        <a class="page-header__logo" href="#">
+          <img class="page-header__logo-image" src="../source/img/logo-sedona-mobile.svg" width="102" height="83" alt="Логотип">
+        </a>
+        <button class="main-nav__toggle" type="button">Открыть меню</button>
+      </div>
     </header>
     <main class="index-page-main">
       <h1 class="visually-hidden">Седона город в Аризоне</h1>
-      <img class="index-page-main__image" src="https://via.placeholder.com/281x214" width="281" height="214" alt="Надпись названия города Седона">
-      <h2 class="index-page-main__title">СЕДОНА — небольшой городок в АРИЗОНЕ, заслуживающий большего!</h2>
-      <p class="index-page-main__description">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+      <img class="index-page-main__image container" src="../source/img/bg-back-mobile@1x.jpg" width="281" height="214" alt="Надпись названия города Седона">
+      <h2 class="index-page-main__title container">СЕДОНА — небольшой городок в АРИЗОНЕ, заслуживающий большего!</h2>
+      <p class="index-page-main__description container">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
       <ul class="index-page-main__reasons-list reasons-list">
         <li class="reasons-list__point point">
-          <h2 class="point__title">НАСТОЯЩИЙ ГОРОДОК</h2>
-          <p class="point__description">СЕДОНА НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
-          <img class="point__img" src="https://via.placeholder.com/320x260" width="320" height="260" alt="Фотография города">
+          <div class="point__head container">
+            <h2 class="point__title">НАСТОЯЩИЙ ГОРОДОК</h2>
+            <p class="point__description">СЕДОНА НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
+          </div>
+          <img class="point__img" src="../source/img/main-city-mobile@1x.jpg" width="320" height="260" alt="Фотография города">
           <ul class="point__list comment-list">
             <li class="comment-list__item">
-              <h2 class="comment-list__title">Жилье</h2>
-              <p class="comment-list__text">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+              <h2 class="comment-list__title container">Жилье</h2>
+              <p class="comment-list__text container">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
             </li>
             <li class="comment-list__item">
-              <h2 class="comment-list__title">СУВЕНИРЫ</h2>
-              <p class="comment-list__text">Не только китайского, но и местного производства!</p>
+              <h2 class="comment-list__title container">СУВЕНИРЫ</h2>
+              <p class="comment-list__text container">Не только китайского, но и местного производства!</p>
             </li>
             <li class="comment-list__item">
-              <h2 class="comment-list__title">ЕДА</h2>
-              <p class="comment-list__text">Всегда заказывайте ФИРМЕННЫЙ БУРГЕР, Вы НЕ разочаруетесь!</p>
+              <h2 class="comment-list__title container">ЕДА</h2>
+              <p class="comment-list__text container">Всегда заказывайте ФИРМЕННЫЙ БУРГЕР, Вы НЕ разочаруетесь!</p>
             </li>
           </ul>
         </li>
         <li class="reasons-list__point point">
-          <h2 class="point__title">ТАМ ЕСТЬ Мост дьявола</h2>
-          <p class="point__description">Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
-          <img class="point__img" src="https://via.placeholder.com/320x260" width="320" height="260" alt="Фотогравия Мост дьявола">
+          <div class="point__head container">
+            <h2 class="point__title">ТАМ ЕСТЬ Мост дьявола</h2>
+            <p class="point__description">Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
+          </div>
+          <img class="point__img container" src="../source/img/photo-bridge-mobile@1x.jpg" width="320" height="260" alt="Фотогравия Мост дьявола">
         </li>
         <li class="reasons-list__point point">
-          <h2 class="point__title">НЕБОЛЬШАЯ ПЛОЩАДЬ</h2>
-          <p class="point__description">ВСЕ интересные места находятся очень близко</p>
+          <h2 class="point__title container">НЕБОЛЬШАЯ ПЛОЩАДЬ</h2>
+          <p class="point__description container">ВСЕ интересные места находятся очень близко</p>
         </li>
         <li class="reasons-list__point point">
-          <h2 class="point__title">КРАСИВАЯ ДОРОГА</h2>
-          <p class="point__description">ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА совсем НЕ СКУЧНО!</p>
+          <h2 class="point__title container">КРАСИВАЯ ДОРОГА</h2>
+          <p class="point__description container">ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА совсем НЕ СКУЧНО!</p>
         </li>
         <li class="reasons-list__point point">
-          <h2 class="point__title">МАЛО ТУРИСТОВ</h2>
-          <p class="point__description">Большинство едет в гранд каньон и толпится там</p>
+          <h2 class="point__title container">МАЛО ТУРИСТОВ</h2>
+          <p class="point__description container">Большинство едет в гранд каньон и толпится там</p>
         </li>
       </ul>
-      <div class="index-page-main__booking booking">
+      <div class="index-page-main__booking booking container">
         <h2 class="booking__title">ЗАИНТЕРЕСОВАЛИСЬ?</h2>
         <p class="booking__text">
           Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне
         </p>
-        <img class="booking__img" src="https://via.placeholder.com/320x350" width="320" height="350" alt="Карта города Седона">
+        <img class="booking__img" src="../source/img/bg-map-mobile@1x.jpg" width="320" height="350" alt="Карта города Седона">
         <a class="booking_link" href="#">НАЙТИ гостиницу</a>
       </div>
     </main>
-    <footer class="footer">
-      <h2 class="footer_title">#visitSEDONA</h2>
+    <footer class="footer container">
+      <h2 class="footer__title">#VISITSEDONA</h2>
       <ul class="footer__social-list social">
         <li class="social__item"><a class="social__link" href="#">VK</a></li>
         <li class="social__item"><a class="social__link" href="#">Facebook</a></li>
         <li class="social__item"><a class="social__link" href="#">Youtube</a></li>
       </ul>
-      <div>
+      <div class="social__academy">
         <h3 class="visually-hidden">Разработанно</h3>
         <a href="https://htmlacademy.ru/intensive/adaptive">Академия</a>
       </div>
