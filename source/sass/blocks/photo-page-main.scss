@@ -4,21 +4,24 @@
 
 }
 
+
 .photo-page-main__wrapper {
-  display: flex;
-  flex-direction: column;
   margin: 0;
   padding: 0;
+  padding-top: 52px;
+  padding-bottom: 66px;
+  background-image: url("../img/bg-back-mobile@1x.jpg");
+  background-position: bottom;
 }
 
-.photo-page-main__image {
-  margin: 0;
-  padding: 0;
-}
 
-.photo-main-page__image-back {
+.photo-page-main__image-back {
+  display: block;
   margin: 0;
   padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: top;
 }
 
 .photo-page-main__title {
