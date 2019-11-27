@@ -13,7 +13,7 @@
 .form__legend {
   margin: 0;
   padding: 0;
-  font-family: PTSans;
+  font-family: PTSans, Arial, sans-serif;
   font-size: 18px;
   font-weight: 800;
   font-stretch: normal;
@@ -23,7 +23,7 @@
   text-align: center;
   text-transform: uppercase;
   list-style: none;
-  color: #000000;
+  color: $black-font;
 
 
 }
@@ -31,7 +31,7 @@
 .form__name {
   margin: 0;
   padding: 0;
-  font-family: PTSans;
+  font-family: PTSans, Arial, sans-serif;
   font-size: 14px;
   font-weight: 400;
   font-stretch: normal;
@@ -41,7 +41,7 @@
   text-align: left;
   list-style: none;
   text-transform: uppercase;
-  color: #333333;
+  color: $shade-of-black-font;
 
 
 }
@@ -49,7 +49,7 @@
 .form__contact {
   margin: 0;
   padding: 0;
-  font-family: PTSans;
+  font-family: PTSans, Arial, sans-serif;
   font-size: 14px;
   font-weight: 400;
   font-stretch: normal;
@@ -59,7 +59,7 @@
   text-align: left;
   list-style: none;
   text-transform: uppercase;
-  color: #333333;
+  color: $shade-of-black-font;
 
 }
 
@@ -72,7 +72,7 @@
 .form__sights {
   margin: 0;
   padding: 0;
-  font-family: PTSans;
+  font-family: PTSans, Arial, sans-serif;
   font-size: 18px;
   font-weight: 800;
   font-stretch: normal;
@@ -81,7 +81,7 @@
   letter-spacing: normal;
   text-align: left;
   list-style: none;
-  color: #000000;
+  color: $black-font;
 
 }
 
