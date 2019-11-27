@@ -1,0 +1,78 @@
+.point {
+  margin: 0;
+  padding: 0;
+}
+
+.point:nth-of-type(1),
+.point:nth-of-type(2) {
+  background-color: $bgc-blue;
+}
+
+.point:nth-of-type(3),
+.point:nth-of-type(4),
+.point:nth-of-type(5) {
+  background-color: $bcg-shade-of-gray;
+}
+
+.point__head {
+  margin: 0;
+  padding: 0;
+}
+
+.point__title {
+  margin: 0;
+  padding: 0;
+  font-family: PTSans, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: $white-font;
+  list-style: none;
+
+}
+
+.point:nth-of-type(3) .point__title,
+.point:nth-of-type(4) .point__title,
+.point:nth-of-type(5) .point__title {
+  color: $black-font;
+}
+
+
+.point__description {
+  margin: 0;
+  padding: 0;
+  font-family: PTSans, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: $white-font;
+}
+
+.point:nth-of-type(3) .point__description,
+.point:nth-of-type(4) .point__description,
+.point:nth-of-type(5) .point__description {
+  color: $shade-of-black-font;
+}
+
+.point__img {
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+
+}
+
+/*
+.point__list {
+
+}
+*/
